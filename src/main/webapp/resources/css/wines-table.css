@@ -1,0 +1,28 @@
+#wines {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#wines td, #wines th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 15px;
+}
+
+#wines tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#wines tr:hover {
+    background-color: #ddd;
+}
+
+#wines th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+}

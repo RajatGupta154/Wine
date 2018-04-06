@@ -1,0 +1,9 @@
+#error-message{
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    color: #ff0000;
+    float: right;
+    /*border: 3px solid #ff0000;*/
+
+}

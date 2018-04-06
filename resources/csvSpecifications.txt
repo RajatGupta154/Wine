@@ -1,0 +1,20 @@
+
+.csv file format:
+
+        name, brand, type, country of origin, year of made, volume,price, stock, description, recomendation, image filename + file extension
+
+All fields are mandatory except the stock, description, recommendation and image.
+
+If you wish to skip one field mark with ,,.
+
+The description and recommendation should be written between " ".
+_______________________________________________________________________________________________
+Location of files:
+
+- images                 ->javaint-2018-spring/wine/src/main/resources/product_images
+- cvs files              ->javaint-2018-spring/wine/src/main/resources/csv
+_______________________________________________________________________________________________
+
+e.g.
+Zestrea Chardonnay,Murfatlar,white,Romania,2016,75,18.3,20,chardonayMurfatlar2016Description,chardonayRecomandation,wineImages/VIN-MURFATLAR-ZESTREA-CHARDONNAY-0.75-L.jpg
+Merlot,Murfatlar,red,Romania,2012,75,13.5,,,,wineImages/Colectia_Murfatlar_Merlot.jpg
